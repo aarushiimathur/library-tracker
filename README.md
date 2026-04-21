@@ -1,52 +1,41 @@
 # Local Library Book Tracker
 
-A simple command-line tool to manage a personal book library using Shell Scripts.
+A simple command-line project to manage books using Shell Scripts.
 
 ## Features
-- Add books (title, author, year)
-- View all books in a formatted table
-- Search books by title or author
+
+- Add books
+- View all books
+- Search books
 - Remove books
-- Borrow and return books
+- Borrow / Return books
+- Duplicate prevention
+- Year validation
 
 ## Technologies Used
-- Bash / Shell Scripting
-- Linux CLI (grep, sed, awk)
-- GitHub for version control
+
+- Bash Shell Scripting
+- Linux CLI
+- GitHub
 
 ## How to Run
 
-1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/library-tracker.git
-cd library-tracker
-```
-
-2. Give execute permissions:
 ```bash
 chmod +x *.sh
-```
-
-3. Run the main menu:
-```bash
 bash run_all.sh
-```
-
-## File Structure
-```
-library-tracker/
-├── run_all.sh        # Main menu
-├── add_book.sh       # Add a new book
-├── view_books.sh     # View all books
-├── search_book.sh    # Search by title/author
-├── remove_book.sh    # Remove a book
-├── borrow_book.sh    # Borrow or return a book
-├── library.txt       # Data file (auto-created)
-└── README.md
-```
 
 ## Contributors
 | Name | Contribution |
 |------|-------------|
 | Student 1 | add_book.sh, view_books.sh, search_book.sh |
 | Student 2 | remove_book.sh, borrow_book.sh, run_all.sh, README |
+
+
+---
+
+# ✅ Step 3 Save File
+
+Press:
+
+```text id="r27b2p"
+Ctrl + S
