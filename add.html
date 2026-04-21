@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Book</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">📚 Library Tracker</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="add.html" class="active">Add Book</a></li>
+<li><a href="view.html">View Books</a></li>
+<li><a href="search.html">Search</a></li>
+<li><a href="stats.html">Stats</a></li>
+</ul>
+</nav>
+
+<div class="container">
+<div class="form-box">
+<h1>Add New Book</h1>
+
+<input type="text" id="title" placeholder="Book Title">
+<input type="text" id="author" placeholder="Author Name">
+<input type="number" id="year" placeholder="Year Published">
+
+<button onclick="addBook()">Add Book</button>
+
+<div class="message" id="msg"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
