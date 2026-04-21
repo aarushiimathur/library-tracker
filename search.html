@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Books</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">📚 Library Tracker</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="add.html">Add Book</a></li>
+<li><a href="view.html">View Books</a></li>
+<li><a href="search.html" class="active">Search</a></li>
+<li><a href="stats.html">Stats</a></li>
+</ul>
+</nav>
+
+<div class="container">
+<div class="form-box">
+<h1>Search Book</h1>
+
+<input type="text" id="searchInput" placeholder="Enter title or author">
+<button onclick="searchBooks()">Search</button>
+
+<div id="searchResults"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
