@@ -1,41 +1,44 @@
-# Local Library Book Tracker
 
-A simple command-line project to manage books using Shell Scripts.
+# 📚 Local Library Book Tracker
 
-## Features
+A simple command-line application to manage a library system using Bash shell scripts.
 
-- Add books
-- View all books
-- Search books
-- Remove books
-- Borrow / Return books
-- Duplicate prevention
-- Year validation
+## 🚀 Features
 
-## Technologies Used
+* Add new books
+* View all available books
+* Search for books
+* Remove books from the system
+* Borrow and return books
+* Prevent duplicate entries
+* Validate publication year
 
-- Bash Shell Scripting
-- Linux CLI
-- GitHub
+## 🛠️ Technologies Used
 
-## How to Run
+* Bash Shell Scripting
+* Linux Command Line Interface (CLI)
+* GitHub for version control
+
+## ▶️ How to Run
 
 ```bash
 chmod +x *.sh
 bash run_all.sh
+```
 
-## Contributors
-| Name | Contribution |
-|------|-------------|
-| Student 1 | add_book.sh, view_books.sh, search_book.sh |
+## 👥 Contributors
+
+| Name      | Contribution                                       |
+| --------- | -------------------------------------------------- |
+| Student 1 | add_book.sh, view_books.sh, search_book.sh         |
 | Student 2 | remove_book.sh, borrow_book.sh, run_all.sh, README |
-
 
 ---
 
-# ✅ Step 3 Save File
+## 💾 Save the File
 
 Press:
 
-```text id="r27b2p"
+```text
 Ctrl + S
+```
