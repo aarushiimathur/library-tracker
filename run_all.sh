@@ -9,8 +9,10 @@ while true; do
     echo "3. Search a Book"
     echo "4. Remove a Book"
     echo "5. Borrow / Return a Book"
-    echo "6. Exit"
+    echo "6. View Statistics"
+    echo "7. Exit"
     echo "================================"
+
     read -p "Choose an option: " choice
 
     case $choice in
@@ -19,7 +21,8 @@ while true; do
         3) bash search_book.sh ;;
         4) bash remove_book.sh ;;
         5) bash borrow_book.sh ;;
-        6) echo "Goodbye!"; exit 0 ;;
+        6) bash stats.sh ;;
+        7) echo "Goodbye!"; exit 0 ;;
         *) echo "Invalid option. Try again." ;;
     esac
 
