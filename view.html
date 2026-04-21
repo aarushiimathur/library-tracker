@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>View Books</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">📚 Library Tracker</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="add.html">Add Book</a></li>
+<li><a href="view.html" class="active">View Books</a></li>
+<li><a href="search.html">Search</a></li>
+<li><a href="stats.html">Stats</a></li>
+</ul>
+</nav>
+
+<div class="container">
+<h1>All Books</h1>
+<br>
+
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Year</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody id="bookTable"></tbody>
+</table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
